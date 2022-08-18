@@ -73,7 +73,7 @@ nav ul li{
 
 .icons i{
     cursor:pointer;
-    padding: 12px;
+    padding: 8px;
 }
 #myProgressBar{
     width: 80vw;
@@ -114,3 +114,42 @@ nav ul li{
     opacity: 0;
     transition: opacity 0.5s ease-in;
 }
+@media screen and (max-width: 600px) and (min-width:300px){
+    .container{
+        min-height: 50vh;
+        width: 75%;
+        background-color: black;
+        color: white;
+        font-family: 'Aboreto', cursive;
+        display: flex;
+        margin: 30px auto;
+        border-radius: 9px;
+        padding: 25px;
+    }
+    .songItem{
+        height: 70px;
+        width: 100%;
+        display: flex;
+        background-color: white;
+        color: black;
+        margin: 10px 0;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 30px;
+    }
+
+    .songInfo{
+        position: relative;
+        font-family: 'Aboreto', cursive;
+        padding-top: 5px;
+        left: -10%;
+        opacity: 0.8;
+        
+    }
+    .icons{
+        margin: 1px;
+    }
+ 
+
+}
+   
